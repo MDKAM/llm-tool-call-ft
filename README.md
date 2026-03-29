@@ -126,8 +126,6 @@ Grouped failures into:
 - Wrong argument values
 - Schema-invalid arguments
 
-This made the final results interpretable instead of just reporting one accuracy number.
-
 ### 7. Demo
 
 Built a simple CLI demo that:
@@ -267,7 +265,7 @@ This indicates the fine-tuned model learned JSON formatting and tool routing ver
 |------|------------:|------------:|-----------:|-------------:|-----------:|----------:|------------:|--------:|-----------:|
 | Base model | 0.38 | 0.37 | 0.17 | 0.17 | 0.16 | 0.12 | 0.12 | 0.24 | 0.24 |
 | Fine-tuned model | 0.99 | 0.99 | 0.99 | 0.99 | 0.98 | 0.77 | 0.77 | 0.99 | 0.96 |
-
+```
 ---
 
 ## Key Takeaways
