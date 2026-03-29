@@ -1,0 +1,108 @@
+{
+  "dataset": "Salesforce/xlam-function-calling-60k",
+  "split": "train",
+  "n_total": 60000,
+  "n_used": 60000,
+  "splits": {
+    "train": {
+      "kept": 57346,
+      "dropped": 254,
+      "avg_tools": 2.8154186865692465,
+      "avg_calls": 1.6664980992571408,
+      "tool_min": 1,
+      "tool_max": 8,
+      "calls_min": 1,
+      "calls_max": 52,
+      "top_drop_reasons": [
+        [
+          "gt_validation_failed:bad_arguments:Item 0: type_mismatch key='inflation' expected='list[float]' got='str'",
+          52
+        ],
+        [
+          "gt_validation_failed:bad_arguments:Item 0: type_mismatch key='x' expected='float' got='str'",
+          34
+        ],
+        [
+          "gt_validation_failed:bad_arguments:Item 1: type_mismatch key='x' expected='float' got='str'",
+          20
+        ],
+        [
+          "gt_validation_failed:bad_arguments:Item 1: type_mismatch key='inflation' expected='list[float]' got='str'",
+          13
+        ],
+        [
+          "gt_validation_failed:bad_arguments:Item 3: type_mismatch key='inflation' expected='list[float]' got='str'",
+          9
+        ],
+        [
+          "gt_validation_failed:bad_arguments:Item 0: type_mismatch key='floor_numbers' expected='list[int]' got='str'",
+          9
+        ],
+        [
+          "gt_validation_failed:bad_arguments:Item 0: type_mismatch key='radius' expected='float' got='str'",
+          8
+        ],
+        [
+          "gt_validation_failed:bad_arguments:Item 0: type_mismatch key='p' expected='float' got='str'",
+          6
+        ],
+        [
+          "gt_validation_failed:bad_arguments:Item 1: type_mismatch key='num' expected='int' got='str'",
+          5
+        ],
+        [
+          "gt_validation_failed:bad_arguments:Item 0: type_mismatch key='numbers' expected='list[union[int,float]]' got='str'",
+          5
+        ]
+      ]
+    },
+    "val": {
+      "kept": 1196,
+      "dropped": 4,
+      "avg_tools": 2.838628762541806,
+      "avg_calls": 1.649665551839465,
+      "tool_min": 1,
+      "tool_max": 8,
+      "calls_min": 1,
+      "calls_max": 5,
+      "top_drop_reasons": [
+        [
+          "gt_validation_failed:bad_arguments:Item 0: type_mismatch key='sample1' expected='list[float]' got='str'",
+          1
+        ],
+        [
+          "gt_validation_failed:bad_arguments:Item 0: type_mismatch key='x' expected='float' got='str'",
+          1
+        ],
+        [
+          "gt_validation_failed:bad_arguments:Item 0: type_mismatch key='p' expected='float' got='str'",
+          1
+        ],
+        [
+          "gt_validation_failed:bad_arguments:Item 0: type_mismatch key='inflation' expected='list[float]' got='str'",
+          1
+        ]
+      ]
+    },
+    "test": {
+      "kept": 1198,
+      "dropped": 2,
+      "avg_tools": 2.7612687813021703,
+      "avg_calls": 1.6919866444073455,
+      "tool_min": 1,
+      "tool_max": 8,
+      "calls_min": 1,
+      "calls_max": 23,
+      "top_drop_reasons": [
+        [
+          "gt_validation_failed:bad_arguments:Item 1: type_mismatch key='x' expected='float' got='str'",
+          1
+        ],
+        [
+          "gt_validation_failed:bad_arguments:Item 0: type_mismatch key='is_id' expected='int' got='str'",
+          1
+        ]
+      ]
+    }
+  }
+}

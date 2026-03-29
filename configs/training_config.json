@@ -1,0 +1,31 @@
+{
+  "model_name": "Qwen/Qwen2.5-1.5B-Instruct",
+  "max_seq_length": 1024,
+  "train_max_examples": 30000,
+  "val_max_examples": 600,
+  "learning_rate": 0.0002,
+  "num_train_epochs": 1,
+  "per_device_train_batch_size": 6,
+  "per_device_eval_batch_size": 6,
+  "gradient_accumulation_steps": 1,
+  "logging_steps": 20,
+  "eval_steps": 2000,
+  "save_steps": 2000,
+  "warmup_ratio": 0.03,
+  "weight_decay": 0.0,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "up_proj",
+    "down_proj",
+    "gate_proj"
+  ],
+  "output_dir": "outputs/qwen2_5_1_5b_toolcall_lora",
+  "bf16": false,
+  "fp16": false
+}

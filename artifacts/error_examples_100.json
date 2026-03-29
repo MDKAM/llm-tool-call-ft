@@ -1,0 +1,887 @@
+{
+  "correct": [
+    {
+      "index": 0,
+      "user": "Find cities starting with 'San' in the US and Canada, limit to 5 results.",
+      "error_type": null,
+      "error_message": null,
+      "gold_calls": [
+        {
+          "name": "autocomplete_places",
+          "arguments": {
+            "q": "San",
+            "country": "US,CA",
+            "limit": 5
+          }
+        }
+      ],
+      "parsed_prediction_calls": [
+        {
+          "name": "autocomplete_places",
+          "arguments": {
+            "limit": 5,
+            "q": "San",
+            "country": "US,CA"
+          }
+        }
+      ],
+      "prediction": "[{\"name\":\"autocomplete_places\",\"arguments\":{\"limit\":5,\"q\":\"San\",\"country\":\"US,CA\"}}]"
+    },
+    {
+      "index": 2,
+      "user": "What is the detailed info for 'Cardano' in Spanish and the latest Litecoin block at height 300000?",
+      "error_type": null,
+      "error_message": null,
+      "gold_calls": [
+        {
+          "name": "crypto_info",
+          "arguments": {
+            "slug": "cardano",
+            "lang": "es"
+          }
+        },
+        {
+          "name": "get_litecoin_block_by_hash_or_height",
+          "arguments": {
+            "hash": "300000"
+          }
+        }
+      ],
+      "parsed_prediction_calls": [
+        {
+          "name": "crypto_info",
+          "arguments": {
+            "slug": "cardano",
+            "lang": "es"
+          }
+        },
+        {
+          "name": "get_litecoin_block_by_hash_or_height",
+          "arguments": {
+            "hash": "300000"
+          }
+        }
+      ],
+      "prediction": "[{\"name\":\"crypto_info\",\"arguments\":{\"slug\":\"cardano\",\"lang\":\"es\"}},{\"name\":\"get_litecoin_block_by_hash_or_height\",\"arguments\":{\"hash\":\"300000\"}}]"
+    },
+    {
+      "index": 4,
+      "user": "I need to know the active days of 'CoderKid' and 'ProProgrammer' for this year. Also, can you check the active days for 'NewbieLearner' as well?",
+      "error_type": null,
+      "error_message": null,
+      "gold_calls": [
+        {
+          "name": "gettotalactivedays",
+          "arguments": {
+            "username": "CoderKid"
+          }
+        },
+        {
+          "name": "gettotalactivedays",
+          "arguments": {
+            "username": "ProProgrammer"
+          }
+        },
+        {
+          "name": "gettotalactivedays",
+          "arguments": {
+            "username": "NewbieLearner"
+          }
+        }
+      ],
+      "parsed_prediction_calls": [
+        {
+          "name": "gettotalactivedays",
+          "arguments": {
+            "username": "CoderKid"
+          }
+        },
+        {
+          "name": "gettotalactivedays",
+          "arguments": {
+            "username": "ProProgrammer"
+          }
+        },
+        {
+          "name": "gettotalactivedays",
+          "arguments": {
+            "username": "NewbieLearner"
+          }
+        }
+      ],
+      "prediction": "[{\"name\":\"gettotalactivedays\",\"arguments\":{\"username\":\"CoderKid\"}},{\"name\":\"gettotalactivedays\",\"arguments\":{\"username\":\"ProProgrammer\"}},{\"name\":\"gettotalactivedays\",\"arguments\":{\"username\":\"NewbieLearner\"}}]"
+    },
+    {
+      "index": 5,
+      "user": "Calculate the cell density for a culture with OD 0.3 and a dilution of 2000, using a calibration factor of 1 billion.",
+      "error_type": null,
+      "error_message": null,
+      "gold_calls": [
+        {
+          "name": "cell_density",
+          "arguments": {
+            "od": 0.3,
+            "dilution": 2000,
+            "factor": 1000000000.0
+          }
+        }
+      ],
+      "parsed_prediction_calls": [
+        {
+          "name": "cell_density",
+          "arguments": {
+            "od": 0.3,
+            "dilution": 2000,
+            "factor": 1000000000.0
+          }
+        }
+      ],
+      "prediction": "[{\"name\":\"cell_density\",\"arguments\":{\"od\":0.3,\"dilution\":2000,\"factor\":1000000000.0}}]"
+    },
+    {
+      "index": 6,
+      "user": "What are the current price targets for SPAC symbol 'DKNG'?",
+      "error_type": null,
+      "error_message": null,
+      "gold_calls": [
+        {
+          "name": "spac_price_targets",
+          "arguments": {
+            "symbol": "DKNG"
+          }
+        }
+      ],
+      "parsed_prediction_calls": [
+        {
+          "name": "spac_price_targets",
+          "arguments": {
+            "symbol": "DKNG"
+          }
+        }
+      ],
+      "prediction": "[{\"name\":\"spac_price_targets\",\"arguments\":{\"symbol\":\"DKNG\"}}]"
+    }
+  ],
+  "wrong_argument_keys": [
+    {
+      "index": 1,
+      "user": "Generate a mini chart for the LTCUSDT symbol on Binance with a 1-year interval and a dark theme.",
+      "error_type": null,
+      "error_message": null,
+      "gold_calls": [
+        {
+          "name": "mini_chart",
+          "arguments": {
+            "width": 800,
+            "format": "png",
+            "symbol": "BINANCE:LTCUSDT",
+            "interval": "1Y",
+            "theme": "dark",
+            "height": 400
+          }
+        }
+      ],
+      "parsed_prediction_calls": [
+        {
+          "name": "mini_chart",
+          "arguments": {
+            "width": 800,
+            "format": "png",
+            "symbol": "BINANCE:LTCUSDT",
+            "interval": "1Y",
+            "theme": "dark"
+          }
+        }
+      ],
+      "prediction": "[{\"name\":\"mini_chart\",\"arguments\":{\"width\":800,\"format\":\"png\",\"symbol\":\"BINANCE:LTCUSDT\",\"interval\":\"1Y\",\"theme\":\"dark\"}}]"
+    },
+    {
+      "index": 3,
+      "user": "Fetch the infobox for the Wikipedia entry 'https://en.wikipedia.org/wiki/Marie_Curie' without including the name. Generate a UUIDv3 with namespace 'url' and name 'https://www.google.com'. Verify a CAPTCHA with the value 'xyz789' and uuid 'abcde-fghij', and check if the text 'This text is clean' contains profanity.",
+      "error_type": null,
+      "error_message": null,
+      "gold_calls": [
+        {
+          "name": "infobox",
+          "arguments": {
+            "wikiurl": "https://en.wikipedia.org/wiki/Marie_Curie",
+            "withname": false
+          }
+        },
+        {
+          "name": "uuidv3_generator",
+          "arguments": {
+            "namespace": "url",
+            "name": "https://www.google.com"
+          }
+        },
+        {
+          "name": "verify_the_captcha",
+          "arguments": {
+            "captcha": "xyz789",
+            "uuid": "abcde-fghij"
+          }
+        },
+        {
+          "name": "check_if_text_contains_profanity",
+          "arguments": {
+            "text": "This text is clean"
+          }
+        }
+      ],
+      "parsed_prediction_calls": [
+        {
+          "name": "infobox",
+          "arguments": {
+            "wikiurl": "https://en.wikipedia.org/wiki/Marie_Curie"
+          }
+        },
+        {
+          "name": "uuidv3_generator",
+          "arguments": {
+            "namespace": "url",
+            "name": "https://www.google.com"
+          }
+        },
+        {
+          "name": "verify_the_captcha",
+          "arguments": {
+            "captcha": "xyz789",
+            "uuid": "abcde-fghij"
+          }
+        },
+        {
+          "name": "check_if_text_contains_profanity",
+          "arguments": {
+            "text": "This text is clean"
+          }
+        }
+      ],
+      "prediction": "[{\"name\":\"infobox\",\"arguments\":{\"wikiurl\":\"https://en.wikipedia.org/wiki/Marie_Curie\"}},{\"name\":\"uuidv3_generator\",\"arguments\":{\"namespace\":\"url\",\"name\":\"https://www.google.com\"}},{\"name\":\"verify_the_captcha\",\"arguments\":{\"captcha\":\"xyz789\",\"uuid\":\"abcde-fghij\"}},{\"name\":\"check_if_text_contains_profanity\",\"arguments\":{\"text\":\"This text is clean\"}}]"
+    },
+    {
+      "index": 11,
+      "user": "I'm looking for the best match listings of condominiums and townhouses in Lake Worth with a maximum price of $450,000. I want to see the first 15 results.",
+      "error_type": null,
+      "error_message": null,
+      "gold_calls": [
+        {
+          "name": "getlistings",
+          "arguments": {
+            "sort": "RELEVANCE",
+            "price_max": 450000,
+            "city": "Lake Worth",
+            "limit": 15
+          }
+        }
+      ],
+      "parsed_prediction_calls": [
+        {
+          "name": "getlistings",
+          "arguments": {
+            "sort": "RELEVANCE",
+            "offset": 0,
+            "price_max": 450000,
+            "city": "Lake Worth",
+            "limit": 15
+          }
+        }
+      ],
+      "prediction": "[{\"name\":\"getlistings\",\"arguments\":{\"sort\":\"RELEVANCE\",\"offset\":0,\"price_max\":450000,\"city\":\"Lake Worth\",\"limit\":15}}]"
+    },
+    {
+      "index": 20,
+      "user": "I'm looking to buy a watch with EAN 1234567890123 in Paris and Berlin. Can you provide the price details for these cities?",
+      "error_type": null,
+      "error_message": null,
+      "gold_calls": [
+        {
+          "name": "details",
+          "arguments": {
+            "is_id": "1234567890123",
+            "country": "FR"
+          }
+        },
+        {
+          "name": "details",
+          "arguments": {
+            "is_id": "1234567890123",
+            "country": "DE"
+          }
+        }
+      ],
+      "parsed_prediction_calls": [
+        {
+          "name": "details",
+          "arguments": {
+            "is_id": "1234567890123",
+            "country": "FR",
+            "longitude": "2.35222",
+            "latitude": "48.85661"
+          }
+        },
+        {
+          "name": "details",
+          "arguments": {
+            "is_id": "1234567890123",
+            "country": "DE",
+            "longitude": "13.40503",
+            "latitude": "52.52000"
+          }
+        }
+      ],
+      "prediction": "[{\"name\":\"details\",\"arguments\":{\"is_id\":\"1234567890123\",\"country\":\"FR\",\"longitude\":\"2.35222\",\"latitude\":\"48.85661\"}},{\"name\":\"details\",\"arguments\":{\"is_id\":\"1234567890123\",\"country\":\"DE\",\"longitude\":\"13.40503\",\"latitude\":\"52.52000\"}}]"
+    },
+    {
+      "index": 34,
+      "user": "What is the generic name for 'Aspirin' and could you also get the COVID-19 death data for California on January 1, 2022, including county-level details for Los Angeles?",
+      "error_type": null,
+      "error_message": null,
+      "gold_calls": [
+        {
+          "name": "genericname",
+          "arguments": {
+            "drug": "Aspirin"
+          }
+        },
+        {
+          "name": "v1_covid19",
+          "arguments": {
+            "type": "deaths",
+            "country": "United States",
+            "date": "2022-01-01",
+            "county": "Los Angeles",
+            "region": "California"
+          }
+        }
+      ],
+      "parsed_prediction_calls": [
+        {
+          "name": "genericname",
+          "arguments": {
+            "drug": "Aspirin"
+          }
+        },
+        {
+          "name": "v1_covid19",
+          "arguments": {
+            "type": "deaths",
+            "country": "California",
+            "date": "2022-01-01",
+            "county": "Los Angeles"
+          }
+        }
+      ],
+      "prediction": "[{\"name\":\"genericname\",\"arguments\":{\"drug\":\"Aspirin\"}},{\"name\":\"v1_covid19\",\"arguments\":{\"type\":\"deaths\",\"country\":\"California\",\"date\":\"2022-01-01\",\"county\":\"Los Angeles\"}}]"
+    }
+  ],
+  "wrong_argument_values": [
+    {
+      "index": 7,
+      "user": "Find the distance from my home at coordinates (34.0522\u00b0 N, 118.2437\u00b0 W) to my office at (34.0501\u00b0 N, 118.2495\u00b0 W).",
+      "error_type": null,
+      "error_message": null,
+      "gold_calls": [
+        {
+          "name": "euclidean_distance",
+          "arguments": {
+            "point_a": [
+              34.0522,
+              118.2437
+            ],
+            "point_b": [
+              34.0501,
+              118.2495
+            ]
+          }
+        }
+      ],
+      "parsed_prediction_calls": [
+        {
+          "name": "euclidean_distance",
+          "arguments": {
+            "point_a": [
+              34.0522,
+              -118.2437
+            ],
+            "point_b": [
+              34.0501,
+              -118.2495
+            ]
+          }
+        }
+      ],
+      "prediction": "[{\"name\":\"euclidean_distance\",\"arguments\":{\"point_a\":[34.0522,-118.2437],\"point_b\":[34.0501,-118.2495]}}]"
+    },
+    {
+      "index": 21,
+      "user": "What are the timezone information for Central Africa Time (CAT) and West Africa Standard Time (WAT) in French?",
+      "error_type": null,
+      "error_message": null,
+      "gold_calls": [
+        {
+          "name": "timezone_by_id",
+          "arguments": {
+            "timezone": "CAT",
+            "lang": "fr"
+          }
+        },
+        {
+          "name": "timezone_by_id",
+          "arguments": {
+            "timezone": "WAT",
+            "lang": "fr"
+          }
+        }
+      ],
+      "parsed_prediction_calls": [
+        {
+          "name": "timezone_by_id",
+          "arguments": {
+            "timezone": "Central Africa Time",
+            "lang": "fr"
+          }
+        },
+        {
+          "name": "timezone_by_id",
+          "arguments": {
+            "timezone": "West Africa Standard Time",
+            "lang": "fr"
+          }
+        }
+      ],
+      "prediction": "[{\"name\":\"timezone_by_id\",\"arguments\":{\"timezone\":\"Central Africa Time\",\"lang\":\"fr\"}},{\"name\":\"timezone_by_id\",\"arguments\":{\"timezone\":\"West Africa Standard Time\",\"lang\":\"fr\"}}]"
+    },
+    {
+      "index": 24,
+      "user": "Find the website URLs for the companies 'Apple Inc.' and 'Microsoft Corporation.'",
+      "error_type": null,
+      "error_message": null,
+      "gold_calls": [
+        {
+          "name": "getwebsite",
+          "arguments": {
+            "name": "Apple Inc."
+          }
+        },
+        {
+          "name": "getwebsite",
+          "arguments": {
+            "name": "Microsoft Corporation"
+          }
+        }
+      ],
+      "parsed_prediction_calls": [
+        {
+          "name": "getwebsite",
+          "arguments": {
+            "name": "Apple Inc."
+          }
+        },
+        {
+          "name": "getwebsite",
+          "arguments": {
+            "name": "Microsoft Corporation."
+          }
+        }
+      ],
+      "prediction": "[{\"name\":\"getwebsite\",\"arguments\":{\"name\":\"Apple Inc.\"}},{\"name\":\"getwebsite\",\"arguments\":{\"name\":\"Microsoft Corporation.\"}}]"
+    },
+    {
+      "index": 47,
+      "user": "Provide information on ATP circuit tournaments in 2017 and the flag for 'NASCAR'.",
+      "error_type": null,
+      "error_message": null,
+      "gold_calls": [
+        {
+          "name": "tournament_list",
+          "arguments": {
+            "category": "atp",
+            "year": "2017"
+          }
+        },
+        {
+          "name": "categoryflag",
+          "arguments": {
+            "flag": "NASCAR"
+          }
+        }
+      ],
+      "parsed_prediction_calls": [
+        {
+          "name": "tournament_list",
+          "arguments": {
+            "category": "ATP",
+            "year": "2017"
+          }
+        },
+        {
+          "name": "categoryflag",
+          "arguments": {
+            "flag": "NASCAR"
+          }
+        }
+      ],
+      "prediction": "[{\"name\":\"tournament_list\",\"arguments\":{\"category\":\"ATP\",\"year\":\"2017\"}},{\"name\":\"categoryflag\",\"arguments\":{\"flag\":\"NASCAR\"}}]"
+    },
+    {
+      "index": 57,
+      "user": "Hey, what types of horoscopes can I check for the next few days?",
+      "error_type": null,
+      "error_message": null,
+      "gold_calls": [
+        {
+          "name": "get_types",
+          "arguments": {
+            "period": "daily"
+          }
+        }
+      ],
+      "parsed_prediction_calls": [
+        {
+          "name": "get_types",
+          "arguments": {
+            "period": "daily"
+          }
+        },
+        {
+          "name": "get_types",
+          "arguments": {
+            "period": "weekly"
+          }
+        },
+        {
+          "name": "get_types",
+          "arguments": {
+            "period": "monthly"
+          }
+        }
+      ],
+      "prediction": "[{\"name\":\"get_types\",\"arguments\":{\"period\":\"daily\"}},{\"name\":\"get_types\",\"arguments\":{\"period\":\"weekly\"}},{\"name\":\"get_types\",\"arguments\":{\"period\":\"monthly\"}}]"
+    }
+  ],
+  "bad_arguments": [
+    {
+      "index": 50,
+      "user": "Retrieve pit stop data for all rounds of the Formula 1 season in 2023.",
+      "error_type": "bad_arguments",
+      "error_message": "Item 0: extra_not_allowed=['rounds']",
+      "gold_calls": [
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "1"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "2"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "3"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "4"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "5"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "6"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "7"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "8"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "9"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "10"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "11"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "12"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "13"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "14"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "15"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "16"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "17"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "18"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "19"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "20"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "21"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "22"
+          }
+        },
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "round": "23"
+          }
+        }
+      ],
+      "parsed_prediction_calls": [
+        {
+          "name": "pitstopdataforarace",
+          "arguments": {
+            "year": "2023",
+            "rounds": "*"
+          }
+        }
+      ],
+      "prediction": "[{\"name\":\"pitstopdataforarace\",\"arguments\":{\"year\":\"2023\",\"rounds\":\"*\"}}]"
+    },
+    {
+      "index": 87,
+      "user": "I want the live stock price for HDFCBANK and the equity-related indices for TCS. Also, provide the options prices for the Call type, symbol GOOG, with a maximum strike of 150 and the expiry range from 2022-01-01 to 2023-12-31.",
+      "error_type": "bad_arguments",
+      "error_message": "Item 2: extra_not_allowed=['expiry_range']",
+      "gold_calls": [
+        {
+          "name": "stockprice",
+          "arguments": {
+            "symbol": "HDFCBANK"
+          }
+        },
+        {
+          "name": "equity_related_indices",
+          "arguments": {
+            "slug": "TCS"
+          }
+        },
+        {
+          "name": "options_prices",
+          "arguments": {
+            "type": "Call",
+            "symbol": "GOOG",
+            "max_strike": 150,
+            "min_expiry": "2022-01-01",
+            "max_expiry": "2023-12-31"
+          }
+        }
+      ],
+      "parsed_prediction_calls": [
+        {
+          "name": "stockprice",
+          "arguments": {
+            "symbol": "HDFCBANK"
+          }
+        },
+        {
+          "name": "equity_related_indices",
+          "arguments": {
+            "slug": "tcs"
+          }
+        },
+        {
+          "name": "options_prices",
+          "arguments": {
+            "type": "Call",
+            "symbol": "GOOG",
+            "max_strike": 150,
+            "expiry_range": "2022-01-01,2023-12-31"
+          }
+        }
+      ],
+      "prediction": "[{\"name\":\"stockprice\",\"arguments\":{\"symbol\":\"HDFCBANK\"}},{\"name\":\"equity_related_indices\",\"arguments\":{\"slug\":\"tcs\"}},{\"name\":\"options_prices\",\"arguments\":{\"type\":\"Call\",\"symbol\":\"GOOG\",\"max_strike\":150,\"expiry_range\":\"2022-01-01,2023-12-31\"}}]"
+    }
+  ],
+  "wrong_tool_selection": [
+    {
+      "index": 72,
+      "user": "I want to find the latest news related to climate change from the United Kingdom, Canada, and Australia. Can you also find news about the same topic from the domains 'bbc.co.uk' and 'theguardian.com'?",
+      "error_type": null,
+      "error_message": null,
+      "gold_calls": [
+        {
+          "name": "news",
+          "arguments": {
+            "country": "gb,ca,au",
+            "q": "climate change"
+          }
+        },
+        {
+          "name": "news",
+          "arguments": {
+            "domain": "bbc.co.uk,theguardian.com",
+            "q": "climate change"
+          }
+        }
+      ],
+      "parsed_prediction_calls": [
+        {
+          "name": "news",
+          "arguments": {
+            "language": "en-GB",
+            "country": "uk"
+          }
+        },
+        {
+          "name": "news",
+          "arguments": {
+            "language": "en-CA",
+            "country": "ca"
+          }
+        },
+        {
+          "name": "news",
+          "arguments": {
+            "language": "en-AU",
+            "country": "au"
+          }
+        },
+        {
+          "name": "vivanews_detail",
+          "arguments": {
+            "is_id": 7890
+          }
+        },
+        {
+          "name": "vivanews_detail",
+          "arguments": {
+            "is_id": 1011
+          }
+        }
+      ],
+      "prediction": "[{\"name\":\"news\",\"arguments\":{\"language\":\"en-GB\",\"country\":\"uk\"}},{\"name\":\"news\",\"arguments\":{\"language\":\"en-CA\",\"country\":\"ca\"}},{\"name\":\"news\",\"arguments\":{\"language\":\"en-AU\",\"country\":\"au\"}},{\"name\":\"vivanews_detail\",\"arguments\":{\"is_id\":7890}},{\"name\":\"vivanews_detail\",\"arguments\":{\"is_id\":1011}}]"
+    },
+    {
+      "index": 89,
+      "user": "What is the aspect ratio and runtime of the movie 'Interstellar'?",
+      "error_type": null,
+      "error_message": null,
+      "gold_calls": [
+        {
+          "name": "title_get_technical",
+          "arguments": {
+            "tconst": "tt0816692"
+          }
+        }
+      ],
+      "parsed_prediction_calls": [
+        {
+          "name": "title_get_technical",
+          "arguments": {
+            "tconst": "tt1375666"
+          }
+        },
+        {
+          "name": "title_get_sound_tracks",
+          "arguments": {
+            "tconst": "tt1375666"
+          }
+        }
+      ],
+      "prediction": "[{\"name\":\"title_get_technical\",\"arguments\":{\"tconst\":\"tt1375666\"}},{\"name\":\"title_get_sound_tracks\",\"arguments\":{\"tconst\":\"tt1375666\"}}]"
+    }
+  ]
+}

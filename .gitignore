@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter / Kaggle / Colab
+.ipynb_checkpoints/
+*.ipynb
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Model outputs / checkpoints
+outputs/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Large generated artifacts
+artifacts/*.jsonl
+artifacts/*rows.jsonl
+artifacts/*predictions*.jsonl
+artifacts/error_examples.json
+
+# Optional: keep only small summary artifacts in git
+# Uncomment if you want to ignore all artifacts and add selected ones manually
+# artifacts/
+
+# Data files (usually too large for git)
+data/train.jsonl
+data/val.jsonl
+data/test.jsonl
+
+# Hugging Face / cache
+.cache/
+huggingface/
+hf_cache/

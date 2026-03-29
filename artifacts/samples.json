@@ -1,0 +1,37 @@
+[
+  {
+    "user": "Calculate the resistance of a 200m aluminum wire with 0.3 sq.m area and count the bits in 128.",
+    "assistant": "[{\"name\":\"wire_resistance\",\"arguments\":{\"length_m\":200,\"area_sq_m\":0.3,\"material\":\"aluminum\"}},{\"name\":\"count_bits\",\"arguments\":{\"num\":128}}]",
+    "system_preview": "You are a tool-calling assistant.\n\nYou MUST output ONLY a JSON array of tool calls with NO extra text.\n\nEach tool call MUST have EXACTLY this shape:\n{\"name\": \"<tool_name>\", \"arguments\": { ... }}\n\nRules:\n- Output must be valid JSON.\n- Output must be a JSON array (possibly empty).\n- Each array item must contain ONLY keys: \"name\" and \"arguments\".\n- \"name\" must be one of the provided tools.\n- \"arguments\" must match the selected tool's parameter requirements:\n  * include all required parameters\n  * do not include unknown parameters\n  * basic type checks should hold (int/float/list/str/bool/dict)\n\n\n ...",
+    "n_tools": 4,
+    "n_calls": 2
+  },
+  {
+    "user": "Search for Mexican zip codes starting with '310' and perform reverse geocoding for the location with coordinates 40.7128\u00b0 N, 74.0060\u00b0 W.",
+    "assistant": "[{\"name\":\"search_zip_codes\",\"arguments\":{\"codigo_postal\":\"310\"}},{\"name\":\"reversegeocode\",\"arguments\":{\"location\":\"40.7128,-74.0060\"}}]",
+    "system_preview": "You are a tool-calling assistant.\n\nYou MUST output ONLY a JSON array of tool calls with NO extra text.\n\nEach tool call MUST have EXACTLY this shape:\n{\"name\": \"<tool_name>\", \"arguments\": { ... }}\n\nRules:\n- Output must be valid JSON.\n- Output must be a JSON array (possibly empty).\n- Each array item must contain ONLY keys: \"name\" and \"arguments\".\n- \"name\" must be one of the provided tools.\n- \"arguments\" must match the selected tool's parameter requirements:\n  * include all required parameters\n  * do not include unknown parameters\n  * basic type checks should hold (int/float/list/str/bool/dict)\n\n\n ...",
+    "n_tools": 5,
+    "n_calls": 2
+  },
+  {
+    "user": "What are the best reviews for restaurant ID 22222? Additionally, find a cocktail recipe using whiskey and ginger ale. Lastly, search for vegan recipes that are gluten-free.",
+    "assistant": "[{\"name\":\"reviews_list_best\",\"arguments\":{\"id_restaurant\":22222}},{\"name\":\"v1_cocktail\",\"arguments\":{\"ingredients\":\"whiskey,ginger ale\"}},{\"name\":\"recipe_search_and_recommendations\",\"arguments\":{\"q\":\"vegan\",\"r\":\"gluten free\"}}]",
+    "system_preview": "You are a tool-calling assistant.\n\nYou MUST output ONLY a JSON array of tool calls with NO extra text.\n\nEach tool call MUST have EXACTLY this shape:\n{\"name\": \"<tool_name>\", \"arguments\": { ... }}\n\nRules:\n- Output must be valid JSON.\n- Output must be a JSON array (possibly empty).\n- Each array item must contain ONLY keys: \"name\" and \"arguments\".\n- \"name\" must be one of the provided tools.\n- \"arguments\" must match the selected tool's parameter requirements:\n  * include all required parameters\n  * do not include unknown parameters\n  * basic type checks should hold (int/float/list/str/bool/dict)\n\n\n ...",
+    "n_tools": 4,
+    "n_calls": 3
+  },
+  {
+    "user": "What are the top backlinks for the domain 'example.com'?",
+    "assistant": "[{\"name\":\"top_backlinks\",\"arguments\":{\"domain\":\"example.com\"}}]",
+    "system_preview": "You are a tool-calling assistant.\n\nYou MUST output ONLY a JSON array of tool calls with NO extra text.\n\nEach tool call MUST have EXACTLY this shape:\n{\"name\": \"<tool_name>\", \"arguments\": { ... }}\n\nRules:\n- Output must be valid JSON.\n- Output must be a JSON array (possibly empty).\n- Each array item must contain ONLY keys: \"name\" and \"arguments\".\n- \"name\" must be one of the provided tools.\n- \"arguments\" must match the selected tool's parameter requirements:\n  * include all required parameters\n  * do not include unknown parameters\n  * basic type checks should hold (int/float/list/str/bool/dict)\n\n\n ...",
+    "n_tools": 3,
+    "n_calls": 1
+  },
+  {
+    "user": "Retrieve the DNA sequence for the sequence ID 'NC_045512.2' in FASTA format without any upstream bases.",
+    "assistant": "[{\"name\":\"get_dna_sequence\",\"arguments\":{\"sequence_id\":\"NC_045512.2\",\"file_format\":\"fasta\",\"upstream_bases\":0}}]",
+    "system_preview": "You are a tool-calling assistant.\n\nYou MUST output ONLY a JSON array of tool calls with NO extra text.\n\nEach tool call MUST have EXACTLY this shape:\n{\"name\": \"<tool_name>\", \"arguments\": { ... }}\n\nRules:\n- Output must be valid JSON.\n- Output must be a JSON array (possibly empty).\n- Each array item must contain ONLY keys: \"name\" and \"arguments\".\n- \"name\" must be one of the provided tools.\n- \"arguments\" must match the selected tool's parameter requirements:\n  * include all required parameters\n  * do not include unknown parameters\n  * basic type checks should hold (int/float/list/str/bool/dict)\n\n\n ...",
+    "n_tools": 3,
+    "n_calls": 1
+  }
+]

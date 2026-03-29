@@ -1,0 +1,1208 @@
+{
+  "sort_numbers": {
+    "support": 3,
+    "predicted": 3,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.6666666666666666,
+    "joint_exact_rate_given_gold_tool": 0.6666666666666666
+  },
+  "categoryflag": {
+    "support": 2,
+    "predicted": 2,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "find_duplicate_number": {
+    "support": 2,
+    "predicted": 2,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "get_ip_zipcode": {
+    "support": 2,
+    "predicted": 2,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "loginuser": {
+    "support": 2,
+    "predicted": 2,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "permutation_count": {
+    "support": 2,
+    "predicted": 2,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "search": {
+    "support": 2,
+    "predicted": 2,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "account_transaction_history": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "actors_list_born_today": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "analysis_list_deprecated": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "analyze_social_group_dynamics": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "artist_related": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "asoy": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "assess_diabetes_risk": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "auto_complete": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "autocomplete_places": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "bacterial_growth": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "calculate_angle": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "calculate_distance": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "calculate_median": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "calculate_standard_deviation": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "categories": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "cell_density": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "check_a_url": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "check_if_text_contains_profanity": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "circle_area": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "continents": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "cosine_similarity": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "crypto_info": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "currencies": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "details": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "dice_roll_probability": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "draw_cards": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "earnings": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "entreprise_par_rid": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "equity_related_indices": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "euclidean_distance": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "event_managers": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "final_velocity": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "find_equilibrium_index": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "find_missing_number": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "find_n_largest_numbers": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "find_next_greater_element": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "find_pairs_with_sum": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "findbypincode": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "fixtures_by_date": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "forecast_weather_api": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "games_by_platform_category_sorted": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "generate_password": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "generate_qr_code": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "genericname": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "get_all_posts": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "get_by_trakt_tv_id": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "get_call": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "get_campaign_lead_from_id": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "get_channel_links": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "get_genres": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "get_individual_news_sources": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "get_ip_location": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "get_litecoin_block_by_hash_or_height": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "get_misinformation_score_account_twitter_account_get": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "get_place_by_id": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "get_the_mx_records": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "get_types": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "get_user_favorite_list": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "getdefinition": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "getlistings": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "getnews": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "getorderbyid": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "getproductbyname": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "getproductsku": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "gettotalactivedays": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "getwebsite": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "greatest_common_divisor": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "history": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "house_prices_get_points_of_interest": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "infobox": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "is_anagram_phrase": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "is_hotel_available": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "is_prime": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "is_valid_palindrome": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "is_valid_parentheses": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "least_common_multiple": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "list_of_archive_events": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "list_specific_qr_code": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "main": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "medias": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "memre_api_v1_readiness": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "mini_chart": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "nearby_superchargers": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "news": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "news_list": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "options_prices": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "origin": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "piercing_line": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "pitstopdataforarace": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "played": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "playstationdeals": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "polygon_area_shoelace": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "potential_energy": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "products_list": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "project_population": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "random_skin_from_class": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "retrieve_file": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "runner_up": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "schools": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "search_by_centre_zip_and_radius": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "search_country": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "search_wikipedia": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "searchdomain": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "software_assets": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "solve_quadratic": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "songs_v2_get_details": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "spac_price_targets": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "specific_giveaway_details": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "statistics_esports": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "std_deviation": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "stockprice": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "structural_analysis": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "time_zone_api": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "timezone_by_id": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "title_get_technical": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "tournament_list": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "tournament_list_wta": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "tsv4": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "uuidv3_generator": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "v1_covid19": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "v1_recipe": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "verify_the_captcha": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "verify_the_existence_of_email": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "vin_decoder_extended": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "wire_resistance": {
+    "support": 1,
+    "predicted": 1,
+    "tool_precision": 1.0,
+    "tool_recall": 1.0,
+    "tool_f1": 1.0,
+    "arg_exact_rate_given_gold_tool": 1.0,
+    "joint_exact_rate_given_gold_tool": 1.0
+  },
+  "title_get_sound_tracks": {
+    "support": 0,
+    "predicted": 1,
+    "tool_precision": 0.0,
+    "tool_recall": 0.0,
+    "tool_f1": 0.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  },
+  "vivanews_detail": {
+    "support": 0,
+    "predicted": 1,
+    "tool_precision": 0.0,
+    "tool_recall": 0.0,
+    "tool_f1": 0.0,
+    "arg_exact_rate_given_gold_tool": 0.0,
+    "joint_exact_rate_given_gold_tool": 0.0
+  }
+}

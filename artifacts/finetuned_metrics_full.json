@@ -1,0 +1,16 @@
+{
+  "n_examples": 1198,
+  "json_parse_rate": 0.9941569282136895,
+  "array_rate": 0.9941569282136895,
+  "call_shape_rate": 0.9941569282136895,
+  "strict_valid_rate": 0.9874791318864775,
+  "tool_name_exact_rate": 0.9766277128547579,
+  "argument_exact_rate": 0.7679465776293823,
+  "joint_exact_rate": 0.7679465776293823,
+  "tool_name_precision": 0.9891891891891892,
+  "tool_name_recall": 0.9838709677419355,
+  "tool_name_f1": 0.9865229110512129,
+  "arg_key_precision": 0.9653942204780592,
+  "arg_key_recall": 0.9518114667604644,
+  "arg_key_f1": 0.9585547290116897
+}

@@ -1,0 +1,7 @@
+{
+  "correct": 77,
+  "wrong_argument_keys": 11,
+  "wrong_argument_values": 8,
+  "bad_arguments": 2,
+  "wrong_tool_selection": 2
+}

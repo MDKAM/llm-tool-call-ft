@@ -1,0 +1,9 @@
+{
+  "correct": 920,
+  "wrong_argument_keys": 103,
+  "wrong_argument_values": 144,
+  "bad_arguments": 4,
+  "wrong_tool_selection": 16,
+  "json_parse_error": 7,
+  "unknown_tool": 4
+}

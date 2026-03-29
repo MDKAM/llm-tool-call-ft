@@ -1,0 +1,16 @@
+{
+  "n_examples": 1198,
+  "json_parse_rate": 1.0,
+  "array_rate": 1.0,
+  "call_shape_rate": 1.0,
+  "strict_valid_rate": 1.0,
+  "tool_name_exact_rate": 0.0,
+  "argument_exact_rate": 0.0,
+  "joint_exact_rate": 0.0,
+  "tool_name_precision": 0.0,
+  "tool_name_recall": 0.0,
+  "tool_name_f1": 0.0,
+  "arg_key_precision": 0.0,
+  "arg_key_recall": 0.0,
+  "arg_key_f1": 0.0
+}

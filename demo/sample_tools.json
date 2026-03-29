@@ -1,0 +1,71 @@
+[
+  {
+    "name": "autocomplete_places",
+    "description": "Find cities or places matching a text prefix.",
+    "parameters": {
+      "q": {
+        "type": "str",
+        "description": "Search prefix.",
+        "required": true
+      },
+      "country": {
+        "type": "str",
+        "description": "Comma-separated country codes.",
+        "required": false
+      },
+      "limit": {
+        "type": "int",
+        "description": "Maximum number of results.",
+        "required": false
+      }
+    }
+  },
+  {
+    "name": "crypto_info",
+    "description": "Get cryptocurrency information by slug and language.",
+    "parameters": {
+      "slug": {
+        "type": "str",
+        "description": "Cryptocurrency slug.",
+        "required": true
+      },
+      "lang": {
+        "type": "str",
+        "description": "Language code.",
+        "required": false
+      }
+    }
+  },
+  {
+    "name": "get_litecoin_block_by_hash_or_height",
+    "description": "Get Litecoin block information by hash or height.",
+    "parameters": {
+      "hash": {
+        "type": "str",
+        "description": "Block hash or height as string.",
+        "required": true
+      }
+    }
+  },
+  {
+    "name": "cell_density",
+    "description": "Calculate cell density from OD, dilution, and calibration factor.",
+    "parameters": {
+      "od": {
+        "type": "float",
+        "description": "Optical density.",
+        "required": true
+      },
+      "dilution": {
+        "type": "int",
+        "description": "Dilution factor.",
+        "required": true
+      },
+      "factor": {
+        "type": "float",
+        "description": "Calibration factor.",
+        "required": true
+      }
+    }
+  }
+]

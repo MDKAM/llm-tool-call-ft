@@ -1,0 +1,120 @@
+{
+  "dataset_name": "Salesforce/xlam-function-calling-60k",
+  "split": "train",
+  "n_examples_scanned": 20000,
+  "unique_tool_names": 3434,
+  "top_tools": [
+    [
+      "search",
+      779
+    ],
+    [
+      "find_pairs_with_sum",
+      220
+    ],
+    [
+      "sort_numbers",
+      218
+    ],
+    [
+      "cell_density",
+      216
+    ],
+    [
+      "find_max_subarray_sum",
+      213
+    ],
+    [
+      "loginuser",
+      212
+    ],
+    [
+      "calculate_standard_deviation",
+      206
+    ],
+    [
+      "reverse_string",
+      200
+    ],
+    [
+      "project_investment_growth",
+      197
+    ],
+    [
+      "find_n_largest_numbers",
+      196
+    ],
+    [
+      "binary_search",
+      191
+    ],
+    [
+      "simulate_query_database",
+      190
+    ],
+    [
+      "std_deviation",
+      190
+    ],
+    [
+      "triangle_area",
+      187
+    ],
+    [
+      "batting_average",
+      185
+    ],
+    [
+      "california_alimony",
+      184
+    ],
+    [
+      "is_perfect_square",
+      184
+    ],
+    [
+      "structural_analysis",
+      183
+    ],
+    [
+      "get_ip_zipcode",
+      183
+    ],
+    [
+      "bacterial_growth",
+      183
+    ]
+  ],
+  "pct_examples_with_k_tools": 0.11495,
+  "pct_examples_with_multi_calls": 0.50455,
+  "pct_parseable_tools": 1.0,
+  "pct_parseable_answers": 1.0,
+  "pct_nonempty_answers": 1.0,
+  "tool_count_stats": {
+    "min": 1.0,
+    "p25": 2.0,
+    "median": 3.0,
+    "p75": 4.0,
+    "max": 8.0,
+    "mean": 2.90525
+  },
+  "answer_call_count_stats": {
+    "min": 1.0,
+    "p25": 1.0,
+    "median": 2.0,
+    "p75": 2.0,
+    "max": 30.0,
+    "mean": 1.58455
+  },
+  "failures": {},
+  "passed": false,
+  "thresholds": {
+    "min_examples": 1000,
+    "min_unique_tools": 200,
+    "min_pct_examples_with_k_tools": 0.8,
+    "k_tools": 5,
+    "min_pct_parseable_tools": 0.98,
+    "min_pct_parseable_answers": 0.98,
+    "min_pct_nonempty_answers": 0.98
+  }
+}
