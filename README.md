@@ -258,14 +258,13 @@ This indicates the fine-tuned model learned JSON formatting and tool routing ver
 
 ---
 
-```md id="oxlfug"
 ## Results
 
 | Model | JSON Parse | Valid Array | Call Shape | Strict Valid | Tool Exact | Arg Exact | Joint Exact | Tool F1 | Arg-Key F1 |
 |------|------------:|------------:|-----------:|-------------:|-----------:|----------:|------------:|--------:|-----------:|
 | Base model | 0.38 | 0.37 | 0.17 | 0.17 | 0.16 | 0.12 | 0.12 | 0.24 | 0.24 |
 | Fine-tuned model | 0.99 | 0.99 | 0.99 | 0.99 | 0.98 | 0.77 | 0.77 | 0.99 | 0.96 |
-```
+
 ---
 
 ## Key Takeaways
